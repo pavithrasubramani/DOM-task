@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Javascript</title>
+</head>
+<body>
+<script>
+ var repeat=function(str,count){
+ if ((str==null) || (count < 0) || (count==null) || (count=="infinity")){
+ return ("Error");
+ }
+ else{
+ return new Array(count+1).join(str); }
+}
+console.log(repeat('a', 4)); 
+console.log(repeat('a'));
+console.log(repeat('a',7));
+</script>
+</body>

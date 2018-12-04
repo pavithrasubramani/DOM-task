@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Javascript</title>
+</head>
+<body>
+<script>
+var insert=function ins(string1,string2,place){
+if(typeof(place) == "undefined") {
+    place = 0;
+  }
+   if(typeof(string2) == "undefined") {
+    string2 = '';
+  }
+   return string2.slice(0, place) + string2+ string1.slice(place);
+    }
+ 
+console.log(insert('We are doing some exercises.')); 
+console.log(insert('We are doing some exercises.','JavaScript ')); 
+console.log(insert('We are doing some exercises.','JavaScript ',18));
+
+</script>
+</body>

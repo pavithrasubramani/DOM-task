@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>Javascript</title>
+</head>
+<body>
+<select id="colorSelect">
+<option>Javascript</option>
+<option>HTML</option>
+<option>CSS</option>
+<option>PHP</option>
+</select>
+<button type="button" onclick="myFunction()">Submit</button>
+<script>
+function myFunction() {
+var a=document.getElementById("colorSelect");
+a.remove(a.selectedIndex);
+}
+</script>
+
+</body>
+</html>

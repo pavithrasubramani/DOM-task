@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Javascript</title>
+</head>
+<body>
+<script>
+var a=function com(date1){
+
+if(date1.getDay()==0 || date1.getDay()==6){
+return ("Weekend");}
+else
+return ("Not a weekend");
+}
+console.log(a(new Date('11/15/2014'))); 
+console.log(a(new Date('12/10/2018'))); 
+console.log(a(new Date('09/01/2012')));
+</script>
+</body>
